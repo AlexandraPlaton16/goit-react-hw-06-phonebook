@@ -1,0 +1,26 @@
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  -ms-flex-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  max-width: 350px;
+}
+
+.deleteButton {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #d9363e;
+}
